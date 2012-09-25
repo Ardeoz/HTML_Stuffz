@@ -22,6 +22,15 @@ var symbols = {
    content: {
          dom: [
          {
+            id:'RoundRect',
+            type:'rect',
+            rect:['78px','188px','324px','404px','auto','auto'],
+            borderRadius:["10px","10px","10px","10px"],
+            fill:["rgba(192,192,192,0.00)"],
+            stroke:[0,"rgba(0,0,0,0.00)","none"],
+            boxShadow:["",3,3,3,43,"rgba(0,255,13,0.65)"]
+         },
+         {
             id:'Text',
             type:'text',
             rect:['38px','350px','auto','auto','auto','auto'],
@@ -37,16 +46,29 @@ var symbols = {
       "Base State": {
          "${_Stage}": [
             ["color", "background-color", 'rgba(255,0,0,1.00)'],
-            ["style", "width", '480px'],
+            ["style", "overflow", 'hidden'],
             ["style", "height", '800px'],
-            ["style", "overflow", 'hidden']
+            ["style", "width", '480px']
+         ],
+         "${_RoundRect}": [
+            ["color", "background-color", 'rgba(192,192,192,0.00)'],
+            ["subproperty", "boxShadow.blur", '3px'],
+            ["style", "left", '78px'],
+            ["style", "width", '324px'],
+            ["style", "top", '188px'],
+            ["subproperty", "boxShadow.color", 'rgba(0,255,13,0.65)'],
+            ["subproperty", "boxShadow.spread", '43px'],
+            ["style", "height", '404px'],
+            ["color", "border-color", 'rgba(0,0,0,0.00)'],
+            ["subproperty", "boxShadow.offsetH", '3px'],
+            ["subproperty", "boxShadow.offsetV", '3px']
          ],
          "${_Text}": [
             ["style", "top", '349.86px'],
             ["transform", "rotateZ", '-54deg'],
             ["style", "font-style", 'italic'],
-            ["style", "left", '38px'],
             ["style", "text-decoration", 'none'],
+            ["style", "left", '38px'],
             ["style", "font-size", '86px']
          ]
       }
