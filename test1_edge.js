@@ -46,9 +46,9 @@ var symbols = {
       "Base State": {
          "${_Stage}": [
             ["color", "background-color", 'rgba(255,0,0,1.00)'],
-            ["style", "overflow", 'hidden'],
+            ["style", "width", '480px'],
             ["style", "height", '800px'],
-            ["style", "width", '480px']
+            ["style", "overflow", 'hidden']
          ],
          "${_RoundRect}": [
             ["color", "background-color", 'rgba(192,192,192,0.00)'],
@@ -56,19 +56,19 @@ var symbols = {
             ["style", "left", '78px'],
             ["style", "width", '324px'],
             ["style", "top", '188px'],
-            ["subproperty", "boxShadow.color", 'rgba(0,255,13,0.65)'],
-            ["subproperty", "boxShadow.spread", '43px'],
-            ["style", "height", '404px'],
+            ["subproperty", "boxShadow.offsetV", '3px'],
             ["color", "border-color", 'rgba(0,0,0,0.00)'],
+            ["style", "height", '404px'],
+            ["subproperty", "boxShadow.spread", '43px'],
             ["subproperty", "boxShadow.offsetH", '3px'],
-            ["subproperty", "boxShadow.offsetV", '3px']
+            ["subproperty", "boxShadow.color", 'rgba(0,255,13,0.65)']
          ],
          "${_Text}": [
             ["style", "top", '349.86px'],
             ["transform", "rotateZ", '-54deg'],
             ["style", "font-style", 'italic'],
-            ["style", "text-decoration", 'none'],
             ["style", "left", '38px'],
+            ["style", "text-decoration", 'none'],
             ["style", "font-size", '86px']
          ]
       }

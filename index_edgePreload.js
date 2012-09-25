@@ -51,8 +51,8 @@ if(document.addEventListener ){
     { load: "edge_includes/jquery.easing.1.3.js"},
     { load: "edge_includes/edge.1.0.0.min.js"},
         {test: !hasJSON, yep:"edge_includes/json2_min.js"},
-          { load: "Untitled-1_edge.js"},
-          { load: "Untitled-1_edgeActions.js"}];
+          { load: "index_edge.js"},
+          { load: "index_edgeActions.js"}];
 
 loadResources(aLoader, doDelayLoad);
 

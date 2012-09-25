@@ -66,36 +66,36 @@ var symbols = {
             ["color", "background-color", 'rgba(255,255,255,1.00)'],
             ["subproperty", "boxShadow.inset", 'inset'],
             ["subproperty", "boxShadow.blur", '118px'],
+            ["subproperty", "boxShadow.color", 'rgba(255,0,0,0.65)'],
             ["subproperty", "boxShadow.spread", '35px'],
-            ["subproperty", "boxShadow.offsetV", '3px'],
             ["subproperty", "boxShadow.offsetH", '0px'],
-            ["subproperty", "boxShadow.color", 'rgba(255,0,0,0.65)']
+            ["subproperty", "boxShadow.offsetV", '3px']
          ],
          "${_Stage}": [
             ["color", "background-color", 'rgba(0,0,0,1.00)'],
-            ["style", "width", '480px'],
+            ["style", "overflow", 'hidden'],
             ["style", "height", '800px'],
-            ["style", "overflow", 'hidden']
+            ["style", "width", '480px']
          ],
          "${_Rectangle}": [
             ["color", "background-color", 'rgba(255,0,0,1.00)'],
             ["subproperty", "boxShadow.inset", 'inset'],
-            ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65)'],
+            ["subproperty", "boxShadow.blur", '91px'],
             ["transform", "rotateZ", '-22deg'],
             ["style", "left", '52px'],
             ["style", "top", '86px'],
-            ["subproperty", "boxShadow.blur", '91px'],
+            ["subproperty", "boxShadow.spread", '22px'],
             ["subproperty", "boxShadow.offsetV", '0px'],
             ["subproperty", "boxShadow.offsetH", '0px'],
-            ["subproperty", "boxShadow.spread", '22px']
+            ["subproperty", "boxShadow.color", 'rgba(0,0,0,0.65)']
          ],
          "${_Text2}": [
-            ["transform", "rotateZ", '-18deg'],
-            ["style", "left", '88.28px'],
-            ["style", "font-size", '45px'],
             ["style", "top", '176px'],
             ["style", "text-align", 'center'],
-            ["style", "font-family", 'Trebuchet MS, Arial, Helvetica, sans-serif']
+            ["transform", "rotateZ", '-18deg'],
+            ["style", "font-family", 'Trebuchet MS, Arial, Helvetica, sans-serif'],
+            ["style", "left", '88.28px'],
+            ["style", "font-size", '45px']
          ],
          "${_Text3}": [
             ["style", "top", '502px'],

@@ -24,7 +24,6 @@
 	"nextElementColorIndex":"4",
 	"stage-Default Timeline_playhead_ms":"0",
 	"pref__general__FilterNonAnimatedElements":"false",
-	"viewStartY":"0",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -44,4 +43,5 @@
    \"timelines\": {\
 \
    }}\
-}"}
+}",
+	"viewStartY":"0"}
